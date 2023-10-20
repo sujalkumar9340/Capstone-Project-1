@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7f7f7f;
+}
+.logo1 {
+  margin-left: 12px;
+}
+.parent-header{
+   display: flex;
+   margin-top: 12px;
+}
+.fa-plane-departure {
+  color: skyblue;
+}
+.child-header1 {
+  margin-left: 200px;
+}
+.child-header {
+  margin-left: 50px;
+}
+.child-header-bell {
+  margin-left: 500px;
+}
+.bg-image {
+  height: 75vh;
+}
+.front {
+  background-image: url("./image/dream-vacation.jpg");
+  height: 100%;
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  margin: 90px;
+}
+.hdfront {
+  text-align: center;
+  color: crimson;
+  padding-top: 222px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.para_over,
+.para_over1 {
+  padding: 12px;
+  text-align: center;
+  color: cornflowerblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.child1section2 {
+  display: flex;
+  margin-top: 34px;
+}
+.image1 {
+  width: 300px;
+  height: 240px;
+  background-image: url("./image/Greece.jpg");
+  margin: 23px;
+  border-radius: 12px;
+  background-size: cover;
+}
+.image2 {
+  width: 300px;
+  height: 240px;
+  background-image: url("./image/newzeland.jpg");
+  margin: 23px;
+  border-radius: 12px;
+  background-size: cover;
+}
+.image3 {
+  width: 300px;
+  height: 240px;
+  background-image: url("./image/thejapan.jpg");
+  margin: 23px;
+  border-radius: 12px;
+  background-size: cover;
+}
+.image4 {
+  width: 300px;
+  height: 240px;
+  background-image: url("./image/port-harbour-sydney-australia.jpg");
+  margin: 23px;
+  border-radius: 12px;
+  background-size: cover;
+}
+.for-naming {
+  display: flex;
+}
+.for-naming .p1,
+.p2,
+.p3,
+.p4 {
+  margin-right: 280px;
+  text-align: center;
+  color: chartreuse;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  /* font-style: inherit; */
+}
+.for-naming .p1 {
+  margin-left: 23px;
+}
+.section2 {
+  margin-top: 23px;
+}
+.for-naming p {
+  text-decoration: underline;
+}
+.section2 .head {
+}
+.popular_hotel {
+  display: flex;
+  margin-left: 80px;
+}
+
+.popular_hotel .child1,
+.popular_hotel .child2,
+.popular_hotel .child3,
+.popular_hotel .child4 {
+  width: 250px;
+  height: 260px;
+  background-color: red;
+  margin: 34px;
+}
+.popular_hotel .child1 {
+  background-image: url("./image/lakesidehotel.jpeg");
+  background-size: cover;
+  border-radius: 20px;
+}
+.popular_hotel .child2 {
+  background-image: url("./image/vegans.jfif");
+  background-size: cover;
+  border-radius: 20px;
+}
+.popular_hotel .child3 {
+  background-image: url("./image/covid\ destination.jfif");
+  background-size: cover;
+  border-radius: 20px;
+}
+.popular_hotel .child4 {
+  background-image: url("./image/resort.jfif");
+  background-size: cover;
+  border-radius: 20px;
+}
+.para-1 {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: brown;
+  text-decoration: underline;
+}
+.para-1 .para_child {
+  margin-left: 150px;
+}
+
+.para-1 .para_child1 {
+  margin-left: 198px;
+}
+.para-1 .para_child1 {
+  margin-left: 198px;
+}
+.para-1 .para_child1 {
+  margin-left: 198px;
+}
+.above_footer {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+.above_footer p {
+  color: rgb(30, 149, 196);
+}
+.footer .heading {
+  text-align: center;
+  margin-top: 83px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+}
+/* .footer .heading p{
+    padding-top: 20px;
+ } */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+h6 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+li {
+  list-style: none;
+}
